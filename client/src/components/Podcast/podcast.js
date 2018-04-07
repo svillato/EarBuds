@@ -17,10 +17,10 @@ let mapStateToProps = (store) => {
   
     render() {
       return (
-
+            
     // {/* <link rel="stylesheet" href="audioPage.css"> */}
 
-    <div class="container">
+    <div class="podcast-wrapper">
         <div class="podcast-container">
             <div class="image-container">
                 <img src="http://fillmurray.com/500/500" alt="" />

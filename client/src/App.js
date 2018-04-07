@@ -10,7 +10,7 @@ import Feature1 from './components/Feature1';
 import Feature2 from './components/Feature2';
 import Feature3 from './components/Feature3';
 import Netflix from './components/Display/Item/Netflix';
-import Podcast from './components/Podcast'
+// import Podcast from './components/Podcast'
 
 // import Landing from './components/Landing';
 // import Forms from "./components/Forms";
@@ -32,7 +32,7 @@ class App extends Component {
             <Switch>
               <Route exact path="/" component={Main} />
               <Route exact path="/netflix" component={Netflix} />
-              <Route exact path="/podcast" component={Podcast} />
+              {/* <Route exact path="/podcast" component={Netflix} /> */}
              </Switch>
             {/* <Feature1 />
 

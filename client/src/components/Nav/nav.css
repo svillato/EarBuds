@@ -131,7 +131,7 @@ ul {
  */
 
  .wrap {
-    grid-column:3;
+    grid-column:2;
     position: relative;
     top: 5%;
   }
@@ -186,4 +186,10 @@ ul {
       padding-top: 3px;
       font-weight: 800;
       font-family: Chalkboard SE;
+  }
+
+  .podcast_bttn {
+      position: relative;
+      grid-column: 4;
+      
   }
