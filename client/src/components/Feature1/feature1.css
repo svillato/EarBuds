@@ -1,0 +1,107 @@
+.feat1_wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  justify-items: center;
+  position: relative;
+  width: 100%;
+  z-index: 1;
+  overflow: hidden;
+  height: 600px;
+ 
+}
+
+.speaker {
+  width:100%;
+}
+
+
+.typewriter{
+  width: 90%;
+}
+.typewriter h1 {
+  color:orange;
+  font-family: Courier New;
+  overflow: hidden; 
+  border-right: .15em solid orange;
+  white-space: nowrap;
+  margin: 0 auto; 
+  font-size: 50px;
+  font-weight: bold;
+  animation: 
+    typing 4s steps(30) 5s infinite,
+    blink-caret .5s infinite;
+}
+
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange }
+}
+
+.text1 > h1 {
+  text-align: center;
+  font-family:sans-serif;
+  font-weight: 200;
+  font-size: 40px;
+  color: black;
+
+
+}
+
+.text1 > h2{
+  padding-left: 60px;
+  padding-right: 50px;
+  font-family:sans-serif;
+  font-weight: 100;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 50px;
+  color: black;
+}
+
+
+
+.wave {
+    z-index:-1;
+    opacity: .3;
+    position: absolute;
+    background: rgb(114, 135, 228);
+    width: 550px;
+    height: 550px;
+    left: 80%;
+    top: 35%;
+    /* -webkit-transform-origin: 50% 48%;
+    -ms-transform-origin: 50% 48%;
+    transform-origin: 50% 48%; */
+    border-radius: 43%;
+    -webkit-animation: drift 3000ms infinite linear;
+    animation: drift 3000ms infinite linear;
+}
+
+.wave.-three {
+  animation: drift 5000ms infinite linear;
+}
+
+.wave.-two {
+  animation: drift 7000ms infinite linear;
+  opacity: .2;
+  background: rgb(80, 162, 194);
+}
+
+
+@keyframes drift {
+  from { transform: rotate(0deg); }
+  from { transform: rotate(360deg); }
+}
+   
+
+
+
+
